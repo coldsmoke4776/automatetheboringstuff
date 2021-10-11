@@ -65,4 +65,4 @@ for x in range(WIDTH):
             # Everything else stays dead or dies:
             nextCells[x][y] = " "
 
-time.sleep(20)  # Adds 5 second pause to reduce flickering
+time.sleep(1)  # Adds 1 second pause to reduce flickering
